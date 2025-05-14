@@ -1,0 +1,96 @@
+.list {
+  height: 100vh;
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.action-container input,
+.action-container label {
+  padding: 10px 20px;
+}
+
+.action-container input {
+  background-color: #fff;
+  color: #161616;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.action-container button {
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #161616;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  opacity: .8;
+  cursor: pointer;
+}
+
+.action-container button:hover {
+  opacity: 1;
+  transition: .4s;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center ; */
+  /* justify-content: center; */
+  margin-top: 15px;
+  padding: 15px 0;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  width: 50%;
+  gap: 8px;
+}
+
+.task-container li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  padding: 0 10px;
+}
+
+.action-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.task-container li button {
+  padding: 2px 5px;
+  background-color: #fff;
+  color: #161616;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  opacity: .8;
+  cursor: pointer;
+}
+
+.task-container li button:hover {
+  opacity: 1;
+  transition: .4s;
+}
+
+.hidden {
+  display: none;
+}
